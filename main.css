@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=KoHo');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    min-height: 100%;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+#page-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+#left {
+    flex: 1 1 50vw;
+    height: 100vh;
+}
+
+#taiyrMainImage {
+    background: url("images/IMG_1766.jpg") no-repeat center;
+    /*
+        for wider pictures
+        background-size: 100% auto  
+    */
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#right {
+    flex: 1 1 50vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#header-in-right {
+    display: flex;
+    height: 10vh;
+
+    align-items: center;
+    padding: 0 20px;
+
+    margin-top: 25px;
+}
+
+#header-in-right li {
+    list-style: none;
+}
+
+#logo {
+    flex: 1;
+    font-size: 24px;
+}
+
+#social-media {
+    display: flex;
+}
+
+#social-media li {
+    margin: 0 1em;
+    font-size: 20px;
+}
+
+a .fab, a .fas{
+    color: black;
+}
+
+#main-info {
+
+}
+
+#logo li {
+    font-family: 'KoHo', sans-serif;
+}
